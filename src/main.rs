@@ -5,8 +5,8 @@ use mylib::*;
 mod he;
 
 //imports from modules;
-use he::algo::he01::*;
+use he::algo::*;
 
 fn main(){
-
+    he02::unique_char();
 }

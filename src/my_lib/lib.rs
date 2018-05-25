@@ -18,3 +18,13 @@ pub fn readInt(inp: &str) -> ((i32, i16, i8),(u32, u16, u8)) {
          _ => (0, 0, 0)
      })
 }
+
+//this method will read sting and return it in vec f char
+pub fn readString(vec: &mut Vec<char>){
+    let mut buff = String::new();
+    io::stdin().read_line(&mut buff).expect("error while reading sting");
+    let buff = buff.trim().to_string();
+    for chars in buff.chars() {
+        vec.push(chars);
+    }
+}
