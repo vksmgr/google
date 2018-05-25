@@ -3,4 +3,12 @@ name = "google"
 version = "0.1.0"
 authors = ["M <cseghrce@gmail.com>"]
 
+[lib]
+name = "mylib"
+path = "src/my_lib/lib.rs"
+
+[[bin]]
+name = "google"
+path = "src/main.rs"
+
 [dependencies]
