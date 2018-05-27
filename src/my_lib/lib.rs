@@ -27,4 +27,6 @@ pub fn readString(vec: &mut Vec<char>){
     for chars in buff.chars() {
         vec.push(chars);
     }
+    //String::from_utf8(buff.into_bytes());
 }
+
