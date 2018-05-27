@@ -11,7 +11,7 @@ use he::algo::*;
 
 fn main(){
    // he02::unique_char();
-    println!("{}",getASCII('c'));
+    println!("{}",getASCII('A'));
 
 }
 
