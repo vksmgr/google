@@ -1,3 +1,4 @@
+#![feature(vec_remove_item)]
 extern crate mylib;
 use mylib::*;
 use std::ascii::*;
@@ -14,9 +15,8 @@ use spoj::*;
 fn main(){
    // he02::unique_char();
     //c01::c01();
-   // c02::c02();
-    let mut ve: Vec<i32> = Vec::new();
-    readLine(&mut ve);
+    c02::c02();
+
 }
 
 
